@@ -50,7 +50,7 @@ spec:
         env: prod
     spec:
       containers:
-      - image: disha1822/my-apache2:v3
+      - image: disha1822/my-apache2:v4
         name: webapp
         ports:
         - containerPort: 80
